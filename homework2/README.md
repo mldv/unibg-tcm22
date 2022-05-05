@@ -85,9 +85,9 @@ https://lq38ud22nb.execute-api.us-east-1.amazonaws.com/uploadxml. Se tutto OK si
 
 2. Collegare la nuova lambda function a un nuovo endpoint (Develop > Routes > Create) della API precedentemente creata. (nota: non è necessario creare una nuova API).
 
-    Scegliere il solo metodo GET e `/listclasses` come route.
+    Scegliere il solo metodo GET e `/list_classes` come route.
 
-    Configurare la *Integration* per la nuova route `/listclasses` da Develop > Integrations > Create and attach integration
+    Configurare la *Integration* per la nuova route `/list_classes` da Develop > Integrations > Create and attach integration
 
 3. Testare il funzionamento con chiamate tipo:
     
